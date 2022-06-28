@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/xText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="y"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/yText"
+        android:layout_below="@id/xText"
+        android:layout_alignStart="@id/xText"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/zText"
+        android:layout_below="@id/yText"
+        android:layout_alignStart="@id/yText"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/zText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="104dp"
+        android:backgroundTint="#000000"
+        android:text="Data yang tersimpan"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
